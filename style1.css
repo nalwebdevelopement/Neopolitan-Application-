@@ -1,0 +1,144 @@
+@media (max-width: 2280px){
+    body
+    {
+        background-color:lightgreen;
+        background-repeat: no-repeat;
+
+       
+    
+    }
+
+    .titlecontainer {
+        border: solid peru;
+        height: 20vh;
+        margin: 1em;
+        font-size: 3em;
+        width:100%;
+        text-align: center;
+      }
+      .piccontainer{
+        border:solid black;
+        height:40vh;
+        background-image: url(" https://www.shutterstock.com/image-photo/men-shopping-shirts-clothing-store-260nw-2198623377.jpg")
+       
+    }
+    #kids
+        {
+            display:none;
+            font-display: optional;
+            visibility: hidden;
+            opacity: 0;
+           
+        }
+     #Women
+        {
+            display:none;
+            font-display: optional;
+            visibility: hidden;
+            opacity: 0;
+          
+        }
+     #Men
+            {
+                display: block;
+                visibility: visible;
+                opacity: 1;
+            }
+
+
+
+}
+    /* Women Clothings */
+    @media (max-width: 1480px ){
+        body
+        {
+            background-color:rgb(42, 150, 175);
+            background-repeat: no-repeat;
+        
+        }
+        .titlecontainer {
+            border: solid peru;
+            height: 20vh;
+            margin: 1em;
+            font-size: 3em;
+            width:100%;
+            text-align: center;
+          }
+          .piccontainer{
+            border:solid black;
+            height:40vh;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsi-oaWvQkfLSeZAUlQ8Bnr5No5pxekOYAPA&s");
+        }
+        #kids
+            {
+                display:none;
+                font-display: optional;
+                visibility: hidden;
+                opacity: 0;
+                
+            }
+            #Men
+            {
+                display:none;
+                font-display: optional;
+                visibility: hidden;
+                opacity: 0;
+            }
+            #Women
+            {
+                display: block;
+                visibility: visible;
+                opacity: 1;
+               
+            }
+    
+    
+    }
+        @media (max-width: 980px){
+            body
+            {
+                background-color:chocolate;
+                background-repeat: no-repeat;
+            
+            }
+            .titlecontainer {
+                border: solid peru;
+                height: 20vh;
+                margin: 1em;
+                font-size: 2em;
+                width:100%;
+                text-align: center;
+               
+              }
+              .piccontainer{
+                border:solid black;
+                height:40vh;
+               /* background-repeat: no-repeat;
+                background-size: contain;*/
+                
+                background-image: url("https://i.pinimg.com/736x/a9/b4/b3/a9b4b3d1a6503664745785947341e2c7.jpg");
+            }
+            #Women
+            {
+                display:none;
+                
+                font-display: optional;
+                visibility: hidden;
+                opacity: 0;
+            }
+            #Men
+            {
+                display:none;
+                font-display: optional;
+                visibility: hidden;
+                opacity: 0;
+            }
+            #kids
+            {
+                display: block;
+                visibility: Visible;
+                opacity: 1;
+            }
+        
+            
+        }
